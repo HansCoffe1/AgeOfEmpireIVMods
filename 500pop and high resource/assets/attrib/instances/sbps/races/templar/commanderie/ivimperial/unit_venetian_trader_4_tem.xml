@@ -1,0 +1,56 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="792309686" List.ParentItemID="792309686">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="911229892" List.ParentItemID="911229892">
+					<group name="info">
+						<template_reference name="help_text_formatter" value="ui_text_formatter" overrideParent="True">
+							<list name="formatter_arguments">
+								<int name="int_value" value="5" overrideParent="True" List.ItemID="-204720684" />
+							</list>
+							<locstring name="formatter" value="11266528" />
+						</template_reference>
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1530163112" List.ParentItemID="-1530163112">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1817169211" List.ParentItemID="1817169211">
+					<instance_reference name="type" value="ebps\races\templar\units\commanderie\ivimperial\unit_venetian_trader_4_tem" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-815093711" List.ParentItemID="-815093711">
+			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1788504349" List.ParentItemID="-1788504349">
+					<enum name="reason" value="usage_and_display" overrideParent="True" />
+					<instance_reference name="upgrade_name" value="upgrade\races\templar\upgrade_age_castle_com_3_tem" overrideParent="True" />
+				</template_reference>
+				<template_reference name="required" value="requirements\required_cap" List.ItemID="-512867519" List.ListAction="Append">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11266529" overrideParent="True" />
+					<float name="max_cap" value="300" overrideParent="True" />
+					<group name="include_pbg_parenting">
+						<bool name="include_child_pbgs" value="False" />
+						<bool name="include_parent_pbgs" value="False" />
+					</group>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="683879184" List.ParentItemID="683879184">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\templar" overrideParent="True" List.ItemID="-2025955123" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="368437707" List.ParentItemID="368437707">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="464355600" List.ParentItemID="464355600">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="9001617" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_trade_cart" />
+</instance>

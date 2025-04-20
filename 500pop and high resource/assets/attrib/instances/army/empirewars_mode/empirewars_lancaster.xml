@@ -1,0 +1,56 @@
+<instance version="4" description="" template="army">
+	<group name="army_bag">
+		<list name="starting_buildings">
+			<group name="starting_building" List.ItemID="1940432131" List.ParentItemID="1940432131">
+				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
+			</group>
+		</list>
+		<enum_table name="resource_starting_amount">
+			<float name="food" value="300" overrideParent="True" />
+			<float name="gold" value="150" overrideParent="True" />
+			<float name="wood" value="200" overrideParent="True" />
+		</enum_table>
+		<instance_reference name="starting_town" value="map_gen\town\map_gen_town\empirewars\empirewars_town_lancaster" overrideParent="True" />
+		<list name="starting_units" overrideParent="True">
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_scout_1_lan" overrideParent="True" List.ItemID="-831453425" />
+			<instance_reference name="squad" value="sbps\races\lancaster\unit_scout_1_lan" overrideParent="True" List.ItemID="1556157630" />
+		</list>
+		<template_reference name="starting_units_spawner" value="options\spawn\fixed_offset">
+			<list name="spawn_positions" overrideParent="True">
+				<group name="position_offset" overrideParent="True" List.ItemID="-1274233842">
+					<float name="x" value="-10" overrideParent="True" />
+					<float name="y" value="-10" overrideParent="True" />
+				</group>
+				<group name="position_offset" overrideParent="True" List.ItemID="-2143374733">
+					<float name="x" value="-15" overrideParent="True" />
+					<float name="y" value="-12" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<group name="ai_production_info">
+			<list name="unlocking_upgrade_list">
+				<group name="unlocking_upgrade_info" List.ItemID="-117513420" List.ParentItemID="-117513420">
+					<instance_reference name="upgrade_pbg" value="upgrade\races\english\units\upgrade_unit_manatarms_4_eng" overrideParent="True" />
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="1277244905" List.ParentItemID="1277244905">
+					<list name="upgraded_squads" removedIds="-541036108">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_archer_2_eng" List.ItemID="-2001956216" List.ListAction="Append" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_archer_2" List.ItemID="-1435405409" List.ListAction="Append" />
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info" List.ItemID="302774186" List.ParentItemID="302774186">
+					<list name="upgraded_squads" removedIds="-1267943950">
+						<instance_reference name="upgraded_squad" value="sbps\races\english\unit_archer_3_eng" List.ItemID="2032595441" List.ListAction="Append" />
+						<instance_reference name="upgraded_squad" value="sbps\races\core\unit_archer_3" List.ItemID="1950093270" List.ListAction="Append" />
+					</list>
+				</group>
+			</list>
+		</group>
+		<state_tree_node name="start_actions_statetree" value="civ_start\Lancaster" overrideParent="True" />
+		<group name="race_population_cap_table">
+			<float name="max_personnel_cap" value="500" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="9002420" />
+	<instance_reference name="parent_pbg" value="army\standard_mode\normal_lancaster" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
+</instance>

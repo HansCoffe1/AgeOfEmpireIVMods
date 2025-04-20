@@ -1,0 +1,35 @@
+<instance version="4" description="" template="army">
+	<uniqueid name="pbgid" value="2128955" />
+	<instance_reference name="parent_pbg" value="army\standard_mode\normal_abbasid" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
+	<group name="army_bag">
+		<list name="starting_buildings">
+			<group name="starting_building" List.ItemID="1690591676" List.ParentItemID="1690591676">
+				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
+			</group>
+		</list>
+		<enum_table name="resource_starting_amount">
+			<float name="food" value="300" overrideParent="True" />
+			<float name="gold" value="150" overrideParent="True" />
+		</enum_table>
+		<instance_reference name="starting_town" value="map_gen\town\map_gen_town\empirewars\empirewars_town_abbasid" overrideParent="True" />
+		<list name="starting_units" overrideParent="True">
+			<instance_reference name="squad" value="sbps\races\abbasid\unit_scout_1_abb" List.ItemID="-1925961863" />
+			<instance_reference name="squad" value="sbps\races\abbasid\unit_scout_1_abb" List.ItemID="-2125362301" />
+		</list>
+		<template_reference name="starting_units_spawner" value="options\spawn\fixed_offset">
+			<list name="spawn_positions" overrideParent="True">
+				<group name="position_offset" List.ItemID="1069754865">
+					<float name="x" value="-10" overrideParent="True" />
+					<float name="y" value="-10" overrideParent="True" />
+				</group>
+				<group name="position_offset" List.ItemID="-1437906491">
+					<float name="x" value="-15" overrideParent="True" />
+					<float name="y" value="-10" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<group name="race_population_cap_table">
+			<float name="max_personnel_cap" value="500" overrideParent="True" />
+		</group>
+	</group>
+</instance>

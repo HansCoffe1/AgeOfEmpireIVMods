@@ -1,0 +1,36 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1355275049" List.ParentItemID="-1355275049">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_ebps_template" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\weapon_ext" List.ItemID="-1963168096" List.ParentItemID="-1963168096">
+			<instance_reference name="weapon" value="weapon\races\common\melee\weapon_villager_1" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="158450" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\weapons\wpn_ebps_template" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="947525672" List.ParentItemID="947525672">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_ebps_template" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\weapon_ext" List.ItemID="394560988" List.ParentItemID="394560988">
+				<instance_reference name="weapon" value="weapon\races\common\melee\weapon_villager_1" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="158450" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\weapons\wpn_ebps_template" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1355275049" List.ParentItemID="-1355275049">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_ebps_template" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\weapon_ext" List.ItemID="-1963168096" List.ParentItemID="-1963168096">
+				<instance_reference name="weapon" value="weapon\races\common\melee\weapon_villager_1" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="158450" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\weapons\wpn_ebps_template" />
+	</variant>
+</instance>

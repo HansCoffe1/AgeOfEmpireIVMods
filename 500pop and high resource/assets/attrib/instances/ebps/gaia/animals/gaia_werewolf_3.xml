@@ -1,0 +1,24 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="172562635" List.ParentItemID="172562635">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="1588141893" List.ParentItemID="1588141893">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="296025926" List.ParentItemID="296025926">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\gaia\werewolf_attack_dangerous_3" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-1988084623" List.ParentItemID="-1988084623">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\gaia\werewolf_attack_dangerous_3_charge" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="9001128" />
+	<instance_reference name="parent_pbg" value="ebps\gaia\animals\gaia_werewolf_2" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
+</instance>

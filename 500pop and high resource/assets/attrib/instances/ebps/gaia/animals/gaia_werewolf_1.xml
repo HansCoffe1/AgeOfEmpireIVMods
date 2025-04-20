@@ -1,0 +1,72 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-572852045" List.ParentItemID="-572852045">
+			<float name="entity_scale" value="200" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="801406003" List.ParentItemID="801406003">
+			<float name="hitpoints" value="300" overrideParent="True" />
+			<state_tree_node name="death_action_tree" value="werewolf_death_actions" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1288548978" List.ParentItemID="-1288548978">
+			<list name="attack_target_restriction_on_victim">
+				<enum name="unit_type" value="werewolf" comment="For the strength of the pack is the wolf, and the strength of the wolf is the pack." overrideParent="True" List.ItemID="1743274595" List.ParentItemID="1743274595" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1916907219" List.ParentItemID="1916907219">
+			<enum_table name="speed_levels">
+				<float name="speed_level_1" value="4" overrideParent="True" />
+				<float name="speed_level_2" value="6" overrideParent="True" />
+				<float name="speed_level_3" value="7.5" overrideParent="True" />
+				<float name="speed_level_4" value="10" overrideParent="True" />
+			</enum_table>
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="1.83" overrideParent="True" />
+				<float name="max_speed" value="15" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="172562635" List.ParentItemID="172562635">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="1588141893" List.ParentItemID="1588141893">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="296025926" List.ParentItemID="296025926">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\gaia\werewolf_attack_dangerous_1" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-1988084623" List.ParentItemID="-1988084623">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\gaia\werewolf_attack_dangerous_1_charge" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+			<group name="combat_scan_intervals">
+				<group name="attack_move_scan_intervals">
+					<float name="interval_with_invalid_target" value="1" overrideParent="True" />
+					<float name="interval_with_valid_target" value="2" overrideParent="True" />
+					<float name="frequent_scan_radius" value="0" overrideParent="True" />
+				</group>
+			</group>
+			<string name="combat_choice_tree" value="entity_combat_manager" overrideParent="True" />
+			<group name="attack_move">
+				<float name="attack_move_targeting_range" value="75" overrideParent="True" />
+				<float name="attack_move_priority_per_distance_meter" value="-0.2" overrideParent="True" />
+			</group>
+			<group name="idle_targeting">
+				<float name="idle_targeting_range" value="15" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_tree_ext" List.ItemID="-683971873" List.ParentItemID="-683971873">
+			<state_tree_node name="ActionTree_OpeningBranch" value="unit_werewolf_behaviour" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\hit_react_tree_ext" List.ItemID="-1584395131" List.ParentItemID="-1584395131">
+			<state_tree_node name="ActionTree_OpeningBranch" value="werewolf_hit_tree" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\statemodel_ext" List.ItemID="-674694426" List.ParentItemID="-674694426">
+			<instance_reference name="schema" value="statemodel_schema\gaia_werewolf_values" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="9000808" />
+	<instance_reference name="parent_pbg" value="ebps\gaia\animals\gaia_huntable_wolf" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
+</instance>
