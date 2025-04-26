@@ -1,0 +1,15 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="burst">
+			<group name="rate_of_fire">
+				<float name="max" value="10" overrideParent="True" />
+				<float name="min" value="10" overrideParent="True" />
+			</group>
+		</group>
+		<group name="range">
+			<float name="max" value="110" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2136152" />
+	<instance_reference name="parent_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi" />
+</instance>

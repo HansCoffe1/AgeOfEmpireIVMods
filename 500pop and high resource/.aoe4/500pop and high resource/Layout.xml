@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LayoutRoot>
   <RootPanel Orientation="Horizontal">
-    <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="322.666666666667" FloatingWidth="300" FloatingHeight="800" FloatingLeft="200" FloatingTop="200">
+    <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="260" FloatingWidth="300" FloatingHeight="800" FloatingLeft="200" FloatingTop="200">
       <LayoutAnchorablePane DockHeight="200" FloatingWidth="300" FloatingHeight="800" FloatingLeft="200" FloatingTop="200">
-        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" IsSelected="True" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="04/20/2025 19:44:47" PreviousContainerId="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" PreviousContainerIndex="1" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Asset Explorer" IsSelected="True" ContentId="EssenceEditor.AssetExplorer" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="04/25/2025 22:51:57" PreviousContainerId="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" PreviousContainerIndex="1" />
       </LayoutAnchorablePane>
     </LayoutAnchorablePaneGroup>
     <LayoutPanel Orientation="Vertical">
       <LayoutDocumentPane>
-        <LayoutDocument Title="_default.burnproj" ContentId="FileName|BurnProject|assets\_default.burnproj" ToolTip="D:\aoe4Mod\500pop and high resource\assets\_default.burnproj" LastActivationTimeStamp="04/20/2025 19:44:13" />
-        <LayoutDocument Title="500pop and high resource.locdb" ContentId="FileName|LocDB|assets\locdb\500pop and high resource.locdb" ToolTip="D:\aoe4Mod\500pop and high resource\assets\locdb\500pop and high resource.locdb" LastActivationTimeStamp="04/20/2025 19:44:12" />
-        <LayoutDocument Title="mod.rdo" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0x8E9E2EBCF955495D" LastActivationTimeStamp="04/20/2025 19:44:28" />
-        <LayoutDocument Title="mod.png" IsSelected="True" IsLastFocusedDocument="True" ContentId="FileName|Image|assets\mod.png" ToolTip="D:\aoe4Mod\500pop and high resource\assets\mod.png" LastActivationTimeStamp="04/20/2025 19:44:29" />
+        <LayoutDocument Title="_default.burnproj" ContentId="FileName|BurnProject|assets\_default.burnproj" ToolTip="D:\1\AgeOfEmpireIVMods\500pop and high resource\assets\_default.burnproj" LastActivationTimeStamp="04/20/2025 19:52:52" />
+        <LayoutDocument Title="500pop and high resource.locdb" ContentId="FileName|LocDB|assets\locdb\500pop and high resource.locdb" ToolTip="D:\1\AgeOfEmpireIVMods\500pop and high resource\assets\locdb\500pop and high resource.locdb" LastActivationTimeStamp="04/25/2025 22:51:55" />
+        <LayoutDocument Title="mod.rdo" IsSelected="True" IsLastFocusedDocument="True" ContentId="Reflect|Essence.Editor.ReflectEditor.Controls.DefaultReflectControlActivator|0x8E9E2EBCF955495D" LastActivationTimeStamp="04/25/2025 22:51:59" />
+        <LayoutDocument Title="mod.png" ContentId="FileName|Image|assets\mod.png" ToolTip="D:\1\AgeOfEmpireIVMods\500pop and high resource\assets\mod.png" LastActivationTimeStamp="04/20/2025 19:52:22" />
       </LayoutDocumentPane>
       <LayoutAnchorablePane Id="1b84d0aa-3fd1-4781-909d-fa3e4b760d6d" Name="anchorablesPane" DockHeight="77.3333333333333">
-        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" ContentId="Output" LastActivationTimeStamp="04/19/2025 21:13:06" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" IsSelected="True" ContentId="Output" LastActivationTimeStamp="04/25/2025 22:13:35" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Error List" ContentId="ErrorList" LastActivationTimeStamp="07/28/2020 09:55:14" />
         <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Object Browser" ContentId="ScenarioEditor.ObjectBrowser" LastActivationTimeStamp="07/28/2020 09:55:15" />
-        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Find References Results 1" IsSelected="True" ContentId="FindReferencesResults1" LastActivationTimeStamp="04/20/2025 00:56:14" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Find References Results 1" ContentId="FindReferencesResults1" LastActivationTimeStamp="04/20/2025 00:56:14" />
       </LayoutAnchorablePane>
     </LayoutPanel>
     <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="77.3333333333337" DockHeight="200">
@@ -38,7 +38,7 @@
   <BottomSide />
   <FloatingWindows />
   <Hidden>
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="04/20/2025 19:37:35" PreviousContainerId="78c06263-eb86-40c1-8abf-6d89a3781df0" PreviousContainerIndex="0" />
-    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="04/20/2025 19:37:35" PreviousContainerId="7cfcb901-119b-4b7f-952b-052a52709764" PreviousContainerIndex="1" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Transformation" IsSelected="True" ContentId="ScenarioEditor.Transformation" FloatingLeft="200" FloatingTop="200" FloatingWidth="250" FloatingHeight="300" LastActivationTimeStamp="04/25/2025 22:41:53" PreviousContainerId="78c06263-eb86-40c1-8abf-6d89a3781df0" PreviousContainerIndex="0" />
+    <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Painter" IsSelected="True" ContentId="ScenarioEditor.Painter" FloatingLeft="200" FloatingTop="200" FloatingWidth="300" FloatingHeight="800" LastActivationTimeStamp="04/25/2025 22:41:53" PreviousContainerId="7cfcb901-119b-4b7f-952b-052a52709764" PreviousContainerIndex="1" />
   </Hidden>
 </LayoutRoot>

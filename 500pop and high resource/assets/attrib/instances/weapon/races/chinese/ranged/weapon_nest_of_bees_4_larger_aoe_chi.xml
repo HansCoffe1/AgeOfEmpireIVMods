@@ -1,0 +1,84 @@
+<instance version="6" description="Specialization: larger aoe" template="weapon">
+	<group name="weapon_bag">
+		<group name="accuracy" overrideParent="True">
+			<float name="near" value="0" />
+			<float name="far" value="0" overrideParent="True" />
+			<float name="mid" value="0" />
+		</group>
+		<group name="area_effect">
+			<template_reference name="area_info" value="options\area_info_options\circle_area_option">
+				<float name="outer_radius" value="4" overrideParent="True" />
+			</template_reference>
+			<group name="distance">
+				<float name="far" value="3" overrideParent="True" />
+				<float name="near" value="1" overrideParent="True" />
+				<float name="mid" value="2" overrideParent="True" />
+			</group>
+		</group>
+		<group name="damage">
+			<float name="max" value="10" overrideParent="True" />
+			<float name="min" value="10" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common\arrow_explosive_large" overrideParent="True" />
+		<string name="name" value="Siege Weapon - Nest of Bees" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_arrow_nestofbees_larger_aoe" overrideParent="True" />
+		</group>
+		<group name="range">
+			<float name="max" value="110" overrideParent="True" />
+		</group>
+		<group name="scatter">
+			<float name="distance_scatter_max" value="0" overrideParent="True" />
+			<float name="distance_scatter_obj_hit_min" value="1.5" overrideParent="True" />
+			<float name="distance_scatter_ratio" value="0" overrideParent="True" />
+			<float name="fow_angle_multiplier" value="1" overrideParent="True" />
+			<float name="fow_distance_multiplier" value="1" overrideParent="True" />
+			<template_reference name="area_scatter_option" value="options\weapon\area_scatter_option">
+				<template_reference name="area_info" value="options\area_info_options\circle_area_option">
+					<float name="outer_radius" value="4" overrideParent="True" />
+				</template_reference>
+			</template_reference>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="182358" />
+	<instance_reference name="parent_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi" />
+	<variant name="campaign">
+		<group name="weapon_bag">
+			<group name="accuracy" overrideParent="True">
+				<float name="near" value="0" />
+				<float name="far" value="0" overrideParent="True" />
+				<float name="mid" value="0" />
+			</group>
+			<group name="area_effect">
+				<template_reference name="area_info" value="options\area_info_options\circle_area_option">
+					<float name="outer_radius" value="4" overrideParent="True" />
+				</template_reference>
+				<group name="distance">
+					<float name="far" value="3" overrideParent="True" />
+					<float name="near" value="1" overrideParent="True" />
+					<float name="mid" value="2" overrideParent="True" />
+				</group>
+			</group>
+			<group name="damage">
+				<float name="max" value="10" overrideParent="True" />
+				<float name="min" value="10" overrideParent="True" />
+			</group>
+			<string name="fx_munition_name" value="common\arrow_explosive_large" overrideParent="True" />
+			<string name="name" value="Siege Weapon - Nest of Bees" overrideParent="True" />
+			<group name="projectile">
+				<instance_reference name="projectile" value="ebps\projectiles\projectile_arrow_nestofbees_larger_aoe" overrideParent="True" />
+			</group>
+			<group name="range">
+				<float name="max" value="32" overrideParent="True" />
+			</group>
+			<group name="scatter">
+				<float name="distance_scatter_max" value="0" overrideParent="True" />
+				<float name="distance_scatter_ratio" value="0" overrideParent="True" />
+				<float name="fow_angle_multiplier" value="1" overrideParent="True" />
+				<float name="fow_distance_multiplier" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<uniqueid name="pbgid" value="182358" />
+		<instance_reference name="parent_pbg" value="weapon\races\chinese\ranged\weapon_nest_of_bees_4_chi" />
+	</variant>
+</instance>
