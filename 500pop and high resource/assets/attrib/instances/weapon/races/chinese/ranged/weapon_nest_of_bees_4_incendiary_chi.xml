@@ -60,7 +60,7 @@
 		</group>
 	</group>
 	<uniqueid name="pbgid" value="166610" />
-	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_mangonel_3_incendiary" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_mangonel_3_incendiary" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
 	<variant name="campaign">
 		<group name="weapon_bag" comment="Not used.">
 			<group name="accuracy" overrideParent="True">
@@ -127,6 +127,6 @@
 			</group>
 		</group>
 		<uniqueid name="pbgid" value="166610" />
-		<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_mangonel_3_incendiary" />
+		<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_mangonel_3_incendiary" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
 	</variant>
 </instance>
