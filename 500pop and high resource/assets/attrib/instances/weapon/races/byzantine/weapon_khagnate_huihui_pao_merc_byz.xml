@@ -1,0 +1,17 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<string name="name" value="Siege Weapon - Greek Fire" overrideParent="True" />
+		<group name="projectile">
+			<instance_reference name="projectile" value="ebps\projectiles\projectile_trebuchet_counterweight_greek_fire" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common\trebuchet_greek_fire" overrideParent="True" />
+		<group name="damage">
+			<float name="max" comment="Don't forget bonus damage values." />
+		</group>
+		<group name="range">
+			<float name="max" value="180" overrideParent="True" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2150874" />
+	<instance_reference name="parent_pbg" value="weapon\races\mongol\ranged\weapon_khaganate_huihui_pao" mod="d15ec5ee34ee4ef8a2bf789a4c683792" />
+</instance>
