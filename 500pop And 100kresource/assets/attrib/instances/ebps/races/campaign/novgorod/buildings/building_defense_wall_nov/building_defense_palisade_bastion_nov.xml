@@ -1,0 +1,36 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="124530832" List.ParentItemID="124530832">
+			<enum name="subclass_type" value="Wall" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="589866990" List.ParentItemID="589866990">
+			<float name="hitpoints" value="100000" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1573617786" List.ParentItemID="1573617786">
+			<list name="race_type_list">
+				<instance_reference name="race_type" value="racebps\campaign\novgorod" overrideParent="True" List.ItemID="-1043475342" List.ParentItemID="-1043475342" />
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="188087" />
+	<instance_reference name="parent_pbg" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_palisade_bastion_rus" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-494223300" List.ParentItemID="-494223300">
+				<enum name="subclass_type" value="Wall" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1144204260" List.ParentItemID="-1144204260">
+				<list name="race_type_list">
+					<instance_reference name="race_type" value="racebps\campaign\novgorod" overrideParent="True" List.ItemID="1304775995" List.ParentItemID="1304775995" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-1743450009" List.ParentItemID="-1743450009">
+				<template_reference name="construction_health_option" value="options\ebpextensions\constructionext\construction_health_option">
+					<float name="initial_health" value="300" overrideParent="True" />
+				</template_reference>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="188087" />
+		<instance_reference name="parent_pbg" value="ebps\races\rus\buildings\building_defense_wall_rus\building_defense_palisade_bastion_rus" />
+	</variant>
+</instance>

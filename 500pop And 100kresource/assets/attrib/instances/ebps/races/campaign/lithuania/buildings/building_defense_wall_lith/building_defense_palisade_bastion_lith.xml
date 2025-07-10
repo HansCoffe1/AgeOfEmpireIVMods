@@ -1,0 +1,37 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="124530832" List.ParentItemID="124530832">
+			<enum name="subclass_type" value="Wall" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="589866990" List.ParentItemID="589866990">
+			<float name="hitpoints" value="100000" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="1573617786" List.ParentItemID="1573617786">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\campaign\lithuania" List.ItemID="-225649036" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="456590290" List.ParentItemID="456590290">
+			<bool name="construction_site_erase_inactive" value="False" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="183067" />
+	<instance_reference name="parent_pbg" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_palisade_bastion_hre" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-494223300" List.ParentItemID="-494223300">
+				<enum name="subclass_type" value="Wall" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1144204260" List.ParentItemID="-1144204260">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\campaign\lithuania" List.ItemID="-1978142631" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\construction_ext" List.ItemID="-1743450009" List.ParentItemID="-1743450009">
+				<bool name="construction_site_erase_inactive" value="False" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="183067" />
+		<instance_reference name="parent_pbg" value="ebps\races\hre\buildings\building_defense_wall_hre\building_defense_palisade_bastion_hre" />
+	</variant>
+</instance>
