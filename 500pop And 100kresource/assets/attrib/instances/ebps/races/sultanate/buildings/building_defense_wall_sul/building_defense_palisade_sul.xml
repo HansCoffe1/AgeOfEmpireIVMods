@@ -18,7 +18,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1710736497" List.ParentItemID="-1710736497">
 			<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
-				<instance_reference name="fence_cap_entity" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_bastion_sul" mod="2f668b122f6046f3945f580b3f155118" overrideParent="True" />
+				<instance_reference name="fence_cap_entity" value="ebps\races\sultanate\buildings\building_defense_palisade_bastion_sul" mod="2f668b122f6046f3945f580b3f155118" overrideParent="True" />
 			</template_reference>
 		</template_reference>
 	</list>
@@ -43,7 +43,7 @@
 			</template_reference>
 			<template_reference name="exts" value="ebpextensions\territory_sector_layout_ext" List.ItemID="-1756148958" List.ParentItemID="-1756148958">
 				<template_reference name="placement_style" value="options\ebpextensions\hexmapext\placement_styles\placement_primary">
-					<instance_reference name="fence_cap_entity" value="ebps\races\sultanate\buildings\building_defense_wall_sul\building_defense_palisade_bastion_sul" mod="2f668b122f6046f3945f580b3f155118" overrideParent="True" />
+					<instance_reference name="fence_cap_entity" value="ebps\races\sultanate\buildings\building_defense_palisade_bastion_sul" mod="2f668b122f6046f3945f580b3f155118" overrideParent="True" />
 				</template_reference>
 			</template_reference>
 		</list>
